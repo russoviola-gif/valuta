@@ -1,0 +1,35 @@
+
+.tit{
+    font-size: 100px ;
+    text-align: center;
+}
+
+.bottone{
+    font-size: 30px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+form{
+    margin-top:20px
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #ffffff;
+}
+i {
+    color: black;
+    cursor: pointer;
+}
+body.dark-mode i {
+    color: white;
+}

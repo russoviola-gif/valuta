@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <p class="tit">CONVERTITORE DI VALUTA</p>
+    <div class="text-center">
+        <i id="darkModeIcon" class="bi bi-toggle2-off fs-4" onclick="toggleDarkMode()"> <span
+                id="darkModeText">darkmode</span> </i>
+        <h4>Euro</h4>
+        <img src="./img/Flag_of_Europe.svg">
+        <form>
+            <input type="text" id="valuta" placeholder="inserisci €" autocomplete="off" value=""
+                oninput="cambioValuta()"><br>
+        </form>
+    </div>
+    <div class="row my-5 text-center">
+        <div class="col col-md-4">
+            <h3>Dollaro americano</h3>
+            <img src="./img/Flag_of_the_United_States.svg.webp">
+            <p id="dollari">0</p>
+        </div>
+        <div class="col col-md-4">
+            <h3>Sterlina</h3>
+            <img src="./img/Flag_of_the_United_Kingdom_(1-2).svg.webp">
+            <p id="sterline">0</p>
+        </div>
+        <div class="col col-md-4">
+            <h3>Yen</h3>
+            <img src="./img/Flag_of_Japan.svg.webp">
+            <p id="yen">0</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
